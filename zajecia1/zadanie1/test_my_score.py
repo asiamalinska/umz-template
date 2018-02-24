@@ -6,7 +6,7 @@ expected = [float(x.rstrip()) for x in open(
     os.path.join('dev-0', 'expected.tsv'), 'r').readlines()]
 
 out = [float(x.rstrip()) for x in open(
-    os.path.join('dev-0', 'out.tsv'), 'r').readlines()]
+    os.path.join('dev-0', 'out1.tsv'), 'r').readlines()]
 
 rmse = 0
 for x, y in zip(expected, out):
